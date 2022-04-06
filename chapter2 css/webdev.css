@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+/* body{
+    background-image: url(adam.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
+.webdev-img{
+    width: 100%;
+    height: auto;
+}
+
+.webdev-header{
+    font-family:'Roboto Slab', serif;
+    font-size: 3rem;
+    text-shadow: 2px 2px 2px white;
+    text-align: center;
+    color: #762126;
+/*  border: 1px solid blue;
+    font-style: italic;
+    border-style: solid;
+    border-color: blue;
+    border-width: 1px; */
+}
+
+.webdev-text{
+    font-family: 'Quichsan', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.fa-facebook-square{
+    color: blue;
+    font-size: 30px;
+}
+
+table, th, td{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    width: 500px;
+}
+th{
+    color: blue;
+}
+
+.apply > a:hover {
+    color: red;
+}
+.apply > a:active{
+    color: green;
+}
